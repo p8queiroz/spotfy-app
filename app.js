@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('app', ['ui.router'])
+        .module('app', ['ui.router', 'ngMockE2E', 'ngStorage'])
         .config(config)
         .run(run);
 
@@ -20,7 +20,7 @@
             });
     }
 
-    function run($rootScope, $http, $location) {
+    function run($rootScope, $http, $location, $localStorage) {
 				
 		//TODO
 

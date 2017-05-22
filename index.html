@@ -15,13 +15,25 @@
     </div>
 
     <!-- angular scripts -->
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-messages.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="https://unpkg.com/angular-ui-router/release/angular-ui-router.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ngStorage/0.3.6/ngStorage.min.js"></script>
+
     
-    <!-- application scripts -->
+    <!-- application main script -->
     <script src="app.js"></script>
-    <script src="app/pages/home/home.controller.js"></script>
+
+	<!-- application Factories -->
+    <script src="app/components/resources/ng-f-spotfy.js"></script>
+	
+	<!-- application Controlers -->
+	<script src="app/pages/home/home.controller.js"></script>
+	
+	
+	<!-- fake backend -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-mocks.js"></script>
+    <script src="app/components/helpers/fake-rest-api.js"></script>
+		
     
 </body>
 </html>
