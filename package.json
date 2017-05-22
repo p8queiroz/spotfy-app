@@ -1,0 +1,30 @@
+{
+  "name": "spotfy-app",
+  "version": "1.0.0",
+  "description": "what about learning Spotfy REST API?",
+  "main": "app.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/p8queiroz/spotfy-app.git"
+  },
+  "keywords": [
+    "sporty",
+    "Spotfy",
+    "REST",
+    "API",
+    "Web",
+    "Development"
+  ],
+  "author": "p8queiroz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/p8queiroz/spotfy-app/issues"
+  },
+  "homepage": "https://github.com/p8queiroz/spotfy-app#readme",
+  "devDependencies": {
+    "jasmine": "^2.6.0"
+  }
+}
