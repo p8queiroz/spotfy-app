@@ -11,6 +11,9 @@
         initController();
 
         function initController() {
+			
+			console.log(vm);
+			
         }
     }
 
