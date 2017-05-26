@@ -1,9 +1,14 @@
-html,
-body,
-ul,
-ol {
+@import url(font-awesome.min.css);
+@import url("http://fonts.googleapis.com/css?family=Raleway:300,700");
+html, body, div, span, h1, h2, h3, h4, p, a, img, strong, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, tbody, tfoot, thead, tr, th, td, article, footer, header, hgroup, menu, nav,
+section, audio {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
 
 body {
   font: 100% Helvetica, sans-serif;

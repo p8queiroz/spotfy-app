@@ -2,7 +2,10 @@
 <html ng-app="app">
 <head>
     <title>Spotfy App</title>
-    <link href="app/components/content/app.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--[if lte IE 8]><script src="app/components/content/js/ie/html5shiv.js"></script><![endif]-->
+    <link href="app/components/content/css/style.css" rel="stylesheet" />
 </head>
 <body>
     <!-- main app container -->
@@ -17,28 +20,33 @@
     <!-- angular scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
     <script src="https://unpkg.com/angular-ui-router/release/angular-ui-router.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/ngStorage/0.3.6/ngStorage.min.js"></script>
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/ngStorage/0.3.6/ngStorage.min.js"></script>
 
-    
+
     <!-- application main script -->
     <script src="app.js"></script>
 
 	<!-- application Factories -->
     <script src="app/components/resources/ng-f-spotfy.js"></script>
-	
+
 	<!-- application Controlers -->
 	<script src="app/pages/home/home.controller.js"></script>
-	
-	
+
+
 	<!-- fake backend -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-mocks.js"></script>
     <script src="app/components/helpers/fake-rest-api.js"></script>
-	
-	
+
+
 	<!-- jQuery scripts -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="app/components/helpers/jQuery/toogle-menu.js"></script>
-			
-    
+  <script src="app/components/helpers/jQuery/skel.min.js"></script>
+  <script src="app/components/helpers/jQuery/util.js"></script>
+  <script src="app/components/helpers/jQuery/main.js"></script>
+
+
+ <!--[if lte IE 8]><script src="app/components/content/js/ie/respond.min.js"></script><![endif]-->
+
 </body>
 </html>

@@ -2,6 +2,9 @@ $ff:  Helvetica, sans-serif;
 $primary-color: #333;
 $footers: #009;
 
+
+@import url(font-awesome.min.css);
+@import url("http://fonts.googleapis.com/css?family=Raleway:300,700");
 @import 'reset';
 
 
@@ -9,11 +12,11 @@ body {
 
   font: 100% $ff;
   color: $primary-color;
-  
+
 }
 
 .footer {
-	
+
 	color: $footers;
 
 }
@@ -69,4 +72,3 @@ nav {
   @extend .message;
   border-color: yellow;
 }
-
