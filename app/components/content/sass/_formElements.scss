@@ -1,0 +1,87 @@
+
+/*form elements
+
+*/
+form {
+	margin: 0 0 2em 0;
+}
+
+
+label {
+display: block;
+font-size: 0.9em;
+margin: 0 0 0.2em 0;
+text-transform: uppercase;
+}
+
+input[type="text"]
+{
+-moz-appearance: none;
+-webkit-appearance: none;
+-ms-appearance: none;
+appearance: none;
+border-radius: 0;
+border: none;
+border: solid 1px;
+color: inherit;
+display: block;
+outline: 0;
+padding: 0 1em;
+text-decoration: none;
+width: 100%;
+}
+
+input[type="text"]:invalid
+{
+	box-shadow: none;
+}
+
+
+
+input[type="text"]
+{
+height: 2.75em;
+}
+
+textarea {
+padding: 0.75em 1em;
+}
+
+
+
+::-webkit-input-placeholder {
+	opacity: 1.0;
+}
+
+:-moz-placeholder {
+	opacity: 1.0;
+}
+
+::-moz-placeholder {
+	opacity: 1.0;
+}
+
+:-ms-input-placeholder {
+	opacity: 1.0;
+}
+
+.formerize-placeholder {
+	opacity: 1.0;
+}
+
+
+label {
+color: #555;
+}
+
+input[type="text"]
+{
+background: rgba(144, 144, 144, 0.075);
+border-color: #e3e3e3;
+}
+
+input[type="text"]:focus
+{
+	border-color: #00cdcf;
+	box-shadow: 0 0 0 1px #00cdcf;
+}

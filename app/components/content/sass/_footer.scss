@@ -1,0 +1,118 @@
+/* footer */
+#footer {
+		background-color: #f7f7f7;
+		color: #444;
+		padding: 5em 0 4em 0;
+		position: relative;
+	}
+
+		#footer input, #footer select, #footer textarea {
+			color: #555;
+		}
+
+		#footer a {
+			color: #00cdcf;
+		}
+
+		#footer strong, #footer b {
+			color: #555;
+		}
+
+		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {
+			color: #555;
+		}
+
+		#footer blockquote {
+			border-left-color: #ddd;
+		}
+
+		#footer code {
+			background: #fff;
+			border-color: #ddd;
+		}
+
+		#footer hr {
+			border-bottom-color: #ddd;
+		}
+
+		#footer:before {
+			background-color: #ddd;
+			content: '';
+			height: 1px;
+			left: 30%;
+			position: absolute;
+			top: 0;
+			width: 40%;
+		}
+
+		#footer .copyright {
+			color: #bbb;
+			font-size: 0.9em;
+			margin: 0 0 2em 0;
+			padding: 0;
+			text-align: center;
+			text-transform: uppercase;
+		}
+
+			#footer .copyright li {
+				border-left: solid 1px #e3e3e3;
+				display: inline-block;
+				list-style: none;
+				margin-left: 1.5em;
+				padding-left: 1.5em;
+			}
+
+				#footer .copyright li:first-child {
+					border-left: 0;
+					margin-left: 0;
+					padding-left: 0;
+				}
+
+		@media screen and (max-width: 1280px) {
+
+			#footer {
+				padding: 4em 2em 3em 2em;
+			}
+
+		}
+
+		@media screen and (max-width: 980px) {
+
+			#footer {
+				padding: 3em 2em 2em 2em;
+			}
+
+				#footer:before {
+					width: 75%;
+					left: 12.5%;
+				}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			#footer {
+				padding: 3em 2em 1em 2em;
+			}
+
+				#footer:before {
+					width: 85%;
+					left: 7.5%;
+				}
+
+				#footer .copyright li {
+					display: block;
+					border-left: 0;
+					margin-left: 0;
+					padding-left: 0;
+				}
+
+		}
+
+		@media screen and (max-width: 480px) {
+
+			#footer {
+				padding: 2em 1em 0.1em 1em;
+			}
+
+		}
